@@ -75,17 +75,17 @@ class Developer(Person):
         """
             This method overriding my_method from super class
 
-            that show your name
+            that show your name with the same method as super class
         """
         super().my_name()
     
     def my_age(self):
         """
-            This method overloading my_age from super class
+            This method overriding my_age from super class
 
             so you can change method but use the same method name
         """
-        print(f"This method is Overloading from Super Class")
+        print(f"This method is Overriding from Super Class")
         print(f"My age is {self.age}")
 
     def my_languge(self):
